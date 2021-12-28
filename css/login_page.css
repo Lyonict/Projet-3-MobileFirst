@@ -1,0 +1,110 @@
+*{box-sizing: border-box;}
+
+body{
+    background: #FFE327;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-card{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.user-type-select{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-type-select div{
+    padding: 20px 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-type-select div:nth-of-type(2){
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.user-type-select a{
+    text-decoration: none; 
+    color: black;
+}
+
+/***** LOGIN PART 1 *****/
+
+.login-part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-part1 img{margin: 10% 0;}
+
+.input-bar{
+    width: 90%;
+    height: 35px;
+    margin: 6px 0;
+    border: solid 1px #173156;
+    border-radius: 25px;
+}
+
+.purple-btn{background-color: #7135F2;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #7135F2;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.login-part1 a{
+    color: black;
+    margin: 7px 0;
+}
+
+/***** SEPARATOR *****/
+
+.separator{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.separator hr{
+    width: 40%;
+    border-top-right-radius: #173156;
+    opacity: 70%;
+}
+
+/***** LOGIN PART 2 *****/
+
+.login-part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-alt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px 0;
+    width: 90%;
+    height: 35px;
+    border: solid 1px #173156;
+    border-radius: 25px;
+}
+
+.login-part2 i{
+    font-size: 1.5rem;
+}

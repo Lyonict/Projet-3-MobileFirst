@@ -1,0 +1,218 @@
+*{box-sizing: border-box;}
+body{margin:0}
+
+hr{
+    margin: 40px 10px;
+    border-color: #e4e4e4;
+}
+
+.purple-btn{background-color: #7135F2;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #7135F2;
+    border-radius: 10px;
+    margin: 15px 0;
+    justify-self: center;
+}
+
+.add2cart-btn i{font-size: 1.5rem;}
+.add2cart-btn{
+    background-color: black;
+    border: 1px solid #707070;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    color: white;
+    box-shadow: 0px 7px 10px lightgray;
+}
+
+/*************** HEADER ***************/
+/**************************************/
+
+header div{margin-bottom: 20px;}
+
+.search-bar-header{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    border: solid 1px grey;
+    border-radius: 10px;
+}
+
+.blue-band{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 61px;
+    background-color: #173156;
+}
+
+.return-btn{
+    background-color: white;
+    text-decoration: none; 
+    color:black;
+    width: 50%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 15px 10px;
+    padding: 3px 10px;
+}
+
+/**************** MAIN ****************/
+/**************************************/
+
+/********** PRODUCT INFO *********/
+
+#product-info{padding: 0 10px;}
+
+.img-container{
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 20px;
+}
+.img-container img{position: absolute; width: 100%;}
+.img-container .add2cart-btn{
+    position: absolute;
+    align-self: flex-end;
+    right: 5%;
+}
+
+/********** RECIPE IDEA *********/
+
+.recipe-header img{width: 100%;}
+.recipe-header{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.recipe-bulletpoints{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-bulletpoints div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-bulletpoints div i{
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.recipe-text{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-text button{
+    align-self: center;
+}
+
+/******** BUYING SUGESTIONS *******/
+
+.suggestions-container button{align-self: center;}
+.suggestions-container{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.suggestions-row1, .suggestions-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.suggestion-card{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    width: 200px;
+    padding-bottom: 10px;
+    margin: 10px 10px;
+    box-shadow: 0px 7px 10px lightgray;
+}
+
+.suggestion-card-desc{padding: 0 10px;}
+
+.suggestion-card-desc div{margin-bottom: 5px;}
+.suggestion-card-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*************** FOOTER ***************/
+/**************************************/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{color: white;}
+
+footer{
+    padding: 30px 1rem 20px ;
+}
+
+footer a{text-decoration: none;}
+footer li{margin-bottom: 1rem;}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+/********** FOOTER1 **********/
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 h1{
+    align-self: center;
+}
+
+/********** FOOTER2 **********/
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 article{text-align: center;}
+.footer2 .search-bar{margin: 10px 0;}
+.footer2 button{
+    background-color: #7135F2;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #7135F2;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.consent{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.consent div{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.social i{font-size: 1.7rem; margin-left: 8px;}
+.social{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,375 @@
+*{box-sizing: border-box;}
+body{margin:0}
+
+.purple-btn{background-color: #7135F2;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #7135F2;
+    border-radius: 10px;
+    margin: 15px 0;
+    justify-self: center;
+}
+
+.search-bar{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    border: solid 1px grey;
+    border-radius: 10px;
+}
+
+.add2cart-btn i{font-size: 1.5rem;}
+.add2cart-btn{
+    background-color: black;
+    border: 1px solid #707070;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    color: white;
+    box-shadow: 0px 7px 10px lightgray;
+}
+
+/*************** HEADER ***************/
+/**************************************/
+
+header div{margin-bottom: 20px;}
+
+.navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: white;
+    color: black;
+}
+.navbar a{color: black; font-size: 1.8rem;}
+
+.blue-band{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 61px;
+    background-color: #173156;
+}
+
+.return-btn{
+    background-color: white;
+    text-decoration: none; 
+    color:black;
+    width: 50%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 15px 10px;
+    padding: 3px 10px;
+}
+
+/**************** MAIN ****************/
+/**************************************/
+
+main section{
+    margin: 40px 0;
+}
+
+/*********** SHOP INFO **********/
+
+/**** Shop Header ****/
+
+.shop-card{
+    width: 95%;
+    margin: 30px auto;
+    background-color: #F6F6F6;
+    border: #FFFFFF 1px solid;
+    border-radius: 25px;
+    box-shadow: 0px 7px 10px lightgray;
+    overflow:hidden;
+}
+
+.shop-header img{width: 100%; margin: -2px;}
+
+.shop-banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #173156;
+    padding: 5px 0;
+}
+
+.rating i{color:#FFEB66;}
+
+.delivery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dev-circle{
+    width: 28px;
+    height: 28px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+}
+
+.shop-social a{color: white; margin: 4px;}
+.shop-social i{font-size: 2rem;}
+
+/**** Shop Resume ****/
+
+.shop-resume{padding: 0 10px;}
+
+.coordinates{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.adress{
+    width: 50%; 
+    border-right: solid 1px #173156;
+    margin-bottom: 15px;
+}
+.adress div{margin: 5px;}
+.hours{width: 50%; padding-left: 10%;}
+
+.categories-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.categorie{
+    padding: 6px;
+    margin-right: 5px;
+    border-radius: 15px;
+    background-color: #F28907;
+    color: white;
+}
+
+/************* DEALS ************/
+
+.deal-container{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.deal-row1, .deal-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.deal-card{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    width: 200px;
+    padding-bottom: 10px;
+    margin: 10px 10px;
+    box-shadow: 0px 7px 10px lightgray;
+}
+
+.deal-card-desc{padding: 0 10px;}
+
+.deal-card-desc div{margin-bottom: 5px;}
+.deal-card-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/************** ADD *************/
+
+.add-banner h3{
+    position: absolute; 
+    z-index: 1;
+    margin: 20px 15px;
+}
+.add-banner{
+    background-image: url(../images/poisson_mignon.svg);
+    height: 278px;
+    color: white;
+}
+
+.black-filter{
+    background-color: black;
+    opacity: 25%;
+    position: absolute;
+    width: 100%;
+    height: 278px;
+}
+
+/************ PRODUCTS ***********/
+
+#products{
+    display: flex;
+    flex-direction: column;
+}
+
+.products-nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    border-top: 1px solid #163055;
+    border-bottom: 1px solid #163055;
+    overflow-x: auto;
+}
+.products-nav div{
+    margin: 20px 20px;
+}
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.product-row1, .product-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-full{margin: 20px 10px;}
+
+.product-img-container{
+    border-radius: 45px;
+    margin-bottom: 20px;
+}
+
+.img-product-fix{margin: -30px;}
+
+.product-img-container img{
+    width: 100%;
+    border-left: 12px solid #35C0F2;
+    border-radius: 45px;
+    box-shadow: 0px 7px 10px lightgray;
+}
+
+.product-info{
+    background-color: #F6F6F6;
+    width: 200px;
+    padding-bottom: 10px;
+    padding: 0 10px;
+}
+
+#products button{align-self: center}
+
+/*************** FOOTER ***************/
+/**************************************/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{color: white;}
+
+footer{
+    padding: 30px 1rem 20px ;
+}
+
+footer a{text-decoration: none;}
+footer li{margin-bottom: 1rem;}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+/********** FOOTER1 **********/
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 h1{
+    align-self: center;
+}
+
+/********** FOOTER2 **********/
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 article{text-align: center;}
+.footer2 .search-bar{margin: 10px 0;}
+.footer2 button{
+    background-color: #7135F2;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #7135F2;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.consent{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.consent div{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.social i{font-size: 1.7rem; margin-left: 8px;}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*************** FONTS ***************/
+/**************************************/
+
+/*** main ***/
+
+.shop-resume h3{
+    font-family: 'Baloo Thambi 2', cursive;font-weight: 500;}
+.coordinates{
+    font-family: 'Montserrat', sans-serif;font-weight: 400;}
+.categories-container{
+    font-family: 'Montserrat', sans-serif;font-weight: 500;}
+.description{
+    font-family: 'Montserrat', sans-serif;font-weight: 400;}
+.deal-card-desc div span{font-family: 'Baloo Thambi 2', cursive;font-weight: 400;}
+.deal-card-price span{font-family: 'Baloo Thambi 2', cursive;font-weight: 600;}
+
+
+/*** footer ***/
+
+.footer1 a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer2 h2{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 500;
+}
+
+.footer2 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer2 div label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer2 article p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}

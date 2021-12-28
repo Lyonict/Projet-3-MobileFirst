@@ -1,0 +1,411 @@
+*{box-sizing: border-box;}
+body{margin:0}
+
+/*************** HEADER ***************/
+/**************************************/
+
+
+header{
+    display: flex;
+    flex-flow: column;
+}
+
+.mairie-photo{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 543px;
+    object-fit: cover;
+}
+
+.grey-filter{
+    background-color: black;
+    opacity: 43%;
+    z-index: 0;
+    position: absolute;
+    height: 543px;
+    width: 100%;
+}
+
+/******* header-content *******/
+
+.header-content{
+    z-index: 1;
+    height: 543px;
+}
+
+/***** Nav *****/
+
+.navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.8rem;
+}
+
+/***** Article *****/
+
+.landing-article{
+    height: 80%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-article h1{
+    color: #FFE327;
+}
+
+.landing-article span{
+    margin: 0 20px;
+    color: white;
+}
+
+.yellow-band{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 61px;
+    margin: 20px 0;;
+    background-color: #FFE327;
+}
+
+.blue-band{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 61px;
+    background-color: #173156;
+}
+
+.search-bar{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    border: solid 1px grey;
+    border-radius: 10px;
+}
+
+.sec-separator{margin: 40px 0;}
+
+/**************** MAIN ****************/
+/**************************************/
+
+/***** INSCRIT DERNIEREMENT *****/
+
+#inscrits h2{margin-left: 15px;}
+
+.shop-select{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+    overflow-x: auto;
+}
+
+.shop-card{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #ecce23;
+    padding-bottom: 15px;
+    margin: 0 10px 0;
+    box-shadow: 0px 7px 10px lightgray;
+}
+
+.shop-card img{margin: -15px -8px 0;}
+.shop-card h3{margin: 0px 6px 5px;}
+.shop-card span{margin: 3px 10px;}
+
+/*********  SPECIALITES *********/
+
+#specialites{margin: 30px 0;}
+#specialites h2{margin-left: 15px;}
+.spe-card h4{margin-bottom: 8px;}
+
+.spe-caroussel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+.spe-card{
+    width: 142px; 
+    text-align: center;
+    margin: 0 10px 20px;
+}
+
+.spe-fish, .spe-meat, .spe-bread, .spe-cake{
+    width: 142px; 
+    height: 142px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px lightgray;
+}
+.spe-fish{background-color: #35C0F2;}
+.spe-meat{background-color: #F28907;}
+.spe-bread{background-color: #FFE327;}
+.spe-cake{background-color: burlywood;}
+
+.white-circle{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-circle i{font-size: 2.5rem;}
+
+/***********  CAROUSSEL ***********/
+
+#caroussel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.caroussel-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #7135F2;
+    width: 85%;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px lightgray;
+    overflow:hidden;
+}
+
+.caroussel-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.caroussel-card img{margin: 0 -14px -18px;}
+
+/******  PANIERS DECOUVERTE ******/
+
+#paniers-decouverte h2{margin: 0 10px;}
+
+.paniers{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.panier-card{
+    background-color: #F28907;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 5px 5px lightgray;
+}
+
+.panier-card{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.panier-card img{margin: -10px -0px 0;}
+.panier-card span{margin: 10px; color: white;}
+
+/**********  ENGAGEMENTS **********/
+
+#engagements{margin-bottom: 40px;}
+
+#engagements h2{
+    margin: 0 10px;
+}
+
+.engagements-container{padding: 0 15px 0;}
+
+.engagement-art{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.engagement-art i{font-size: 2rem; margin-bottom: 10px;}
+.engagement-art hr{width: 100%;}
+
+/*************** FOOTER ***************/
+/**************************************/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{color: white;}
+
+footer{
+    padding: 30px 1rem 20px ;
+}
+
+footer a{text-decoration: none;}
+footer li{margin-bottom: 1rem;}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+/********** FOOTER1 **********/
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 h1{
+    align-self: center;
+}
+
+/********** FOOTER2 **********/
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 article{text-align: center;}
+.footer2 .search-bar{margin: 10px 0;}
+.footer2 button{
+    background-color: #7135F2;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #7135F2;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.consent{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.consent div{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.social i{font-size: 1.7rem; margin-left: 8px;}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*************** FONTS ***************/
+/**************************************/
+
+.search-bar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/*** header ***/
+
+h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+}
+
+.landing-article span{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 600;
+}
+
+/*** main ***/
+
+main h2{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 700;
+}
+
+#inscrits h3{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 600;
+}
+
+#inscrits span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#inscrits .number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#specialites h4{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 600;
+}
+
+#caroussel h4{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 700;
+}
+
+#caroussel span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#paniers-decouverte span{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 500;
+}
+
+#engagements span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*** footer ***/
+
+.footer1 a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer2 h2{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 500;
+}
+
+.footer2 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer2 div label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer2 article p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
